@@ -1,0 +1,55 @@
+.book-container {
+    padding: 20px;
+    background-color: #8885c7;
+    min-height: 100vh;
+  }
+  
+  .book-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .book-controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .book-controls select, 
+  .book-controls input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #444;
+    border-radius: 4px;
+  }
+  .book-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  .book-table th{
+    background-color: #444;
+  }
+  .book-table th, .book-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  td>button:nth-child(1) {
+    background-color: #6c79f3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  td>button:nth-child(2) {
+    background-color: #f36c6c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  

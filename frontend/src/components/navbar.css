@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  /* styles.css */
+  
+  /* General Styles */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #8885c7;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #4a4a4a;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    height: 80px;
+  }
+  
+  .navbar-logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  .navbar-title {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .navbar-buttons {
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 55px;
+  }
+  
+  .navbar-buttons button {
+    background-color: #666;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    height: 55px;
+    cursor: pointer;
+    font-size: larger;
+  }
+  
+  .navbar-buttons button.active {
+    background-color: #8885c7;
+  }

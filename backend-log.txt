@@ -1,0 +1,5 @@
+[2025-02-21T09:05:59.391Z] Starting backend server...
+[2025-02-21T09:05:59.461Z] Backend path: /home/mussie/Desktop/mussie/LibrarySys/backend/server.js
+[2025-02-21T09:05:59.461Z] Backend file found.
+[2025-02-21T09:05:59.461Z] Using node from: node
+[2025-02-21T09:05:59.475Z] Backend server started in the background

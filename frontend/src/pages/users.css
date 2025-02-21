@@ -1,0 +1,39 @@
+.user-container {
+    padding: 20px;
+    background-color: #8885c7;
+    min-height: 100vh;
+  }
+  
+  .user-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .user-controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .user-controls input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #444;
+    border-radius: 4px;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  .user-table th{
+    background-color: #444;
+  }
+  .user-table th, .user-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  
